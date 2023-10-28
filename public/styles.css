@@ -1,0 +1,44 @@
+h2 {
+    color: yellow;
+    text-align: center;
+ 
+}
+
+span {
+    color: blue;
+}
+
+.heading {
+    color: yellow;
+    text-align: center;
+}
+
+
+.col-md-4{
+    text-align: center;
+   
+}
+
+.row-top{
+    background-color: beige;
+}
+
+.col-2 {
+    background-color: beige;
+    text-align: center;
+    border: 1px solid gray;
+    align-content: center;
+
+}
+
+.card{
+    background-color: beige;
+}
+
+.card-body{
+    background-color: beige;
+}
+
+.pageheader {
+    color: yellow;
+}
