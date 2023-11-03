@@ -1,15 +1,14 @@
-h2 {
-    color: yellow;
-    text-align: center;
- 
+#body1 {
+    background-color: #86A789;
 }
 
-span {
-    color: blue;
+.brand {
+   
+    color: #D2E3C8;
 }
 
 .heading {
-    color: yellow;
+    color: #D2E3C8;
     text-align: center;
 }
 
@@ -20,25 +19,43 @@ span {
 }
 
 .row-top{
-    background-color: beige;
+    background-color: #B2C8BA;
+    border-radius: 5%;
 }
 
 .col-2 {
-    background-color: beige;
+    background-color: #B2C8BA;
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid whitesmoke;
     align-content: center;
+    border-radius: 8%;
 
 }
 
-.card{
-    background-color: beige;
-}
 
 .card-body{
-    background-color: beige;
+    background-color: #B2C8BA;
+    border-radius: 5%;
 }
 
 .pageheader {
     color: yellow;
+}
+
+.pageImage{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+.footer {
+    background-color: #86A789;
+}
+
+.time {
+    margin-top: 1rem;
+}
+
+.footer-text {
+    color: #D2E3C8;
 }

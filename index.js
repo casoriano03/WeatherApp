@@ -73,7 +73,7 @@ app.post("/city", async(req,res)=>{
    };
    axios.request(options).then(function(response){
     const weatherNow = response.data.properties.timeseries;
-    res.render("page.ejs",{weatherNow:weatherNow, city:cityName, icon:icon});
+    res.render("page.ejs",{weatherNow:weatherNow, city:cityName});
 
 }).catch(function(error){
     console.error(error);
